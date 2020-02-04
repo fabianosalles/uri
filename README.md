@@ -1,5 +1,5 @@
 # URI Online Judge's Problems Solutions
-[URI Online Judge](https://www.urionlinejudge.com.br/) is a website wich publishes various Computer Science problem you can solve in the programming language you prefer.
+[URI Online Judge](https://www.urionlinejudge.com.br/) is a website wich publishes various Computer Science problems you can solve in the programming language you prefer.
 
 This repository contains some of my solutions and thoughts about the problems I've found interesting for one reason or another. Nothing fancy, just an old-timer programmer practicing and having some fun.  
 
