@@ -1,7 +1,6 @@
-# Problem
-
-Taken from: 
-https://www.urionlinejudge.com.br/judge/en/problems/view/1022
+# Problem : TDA Rational
+##### By Neilor Tonin, URI  Brazi
+#### Taken from: https://www.urionlinejudge.com.br/judge/en/problems/view/1022
 
 You were invited to do a little job for your Mathematic teacher. The job is to read a Mathematic expression in format of two rational numbers (numerator / denominator) and present the result of the operation. Each operand or operator is separated by a blank space. The input sequence (each line) must respect the following format: number, (‘/’ char), number, operation char (‘/’, ‘*’, ‘+’, ‘-‘), number, (‘/’ char), number. The answer must be presented followed by ‘=’ operator and the simplified answer. If the answer can’t be simplified, it must be repeated after a ‘=’ operator.
 
@@ -17,3 +16,11 @@ The input contains several cases of test. The first value is an integer N (1 ≤
 
 ## Output
 The output must be a rational number, followed by a “=“ sign and another rational number, that is the simplification of the first value. In case of the first value can’t be simplified, the same value must be repeated after the ‘=’ sign.
+
+Input Sample  | Output Sample 
+--------------| -------------- 
+4             | 10/8 = 5/4   
+1 / 2 + 3 / 4 | -2/8 = -1/4   
+1 / 2 - 3 / 4 | 12/18 = 2/3  
+2 / 3 * 6 / 6 | 4/6 = 2/3    
+1 / 2 / 3 / 4 |              
