@@ -23,15 +23,15 @@ void log_info(char *text){
 }
 
 void log_warn(char *text){
-    printf(ANSI_COLOR_YELLOW"%s", text);
+    printf(ANSI_COLOR_YELLOW"%s"ANSI_COLOR_RESET, text);
 }
 
 void log_error(char *text){
-    printf(ANSI_COLOR_RED"%s", text);
+    printf(ANSI_COLOR_RED"%s"ANSI_COLOR_RESET, text);
 }
 
 void log_success(char *text){
-    printf(ANSI_COLOR_RED"%s", text);
+    printf(ANSI_COLOR_RED"%s"ANSI_COLOR_RESET, text);
 }
 
 #endif
